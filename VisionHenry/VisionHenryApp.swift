@@ -11,23 +11,20 @@ import SwiftUI
 struct VisionHenryApp: App {
 
     @State private var appModel = AppModel()
-
+    
+    @State private var rotateTrigger = false   // Control del cubo
+    @State private var verticalSpin = false
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
-                .environment(appModel)
+            ContentView(rotateTrigger: $rotateTrigger, verticalSpin: $verticalSpin)
         }
-
-        ImmersiveSpace(id: appModel.immersiveSpaceID) {
-            ImmersiveView()
-                .environment(appModel)
-                .onAppear {
-                    appModel.immersiveSpaceState = .open
-                }
-                .onDisappear {
-                    appModel.immersiveSpaceState = .closed
-                }
+        
+        ImmersiveSpace(id: "MyImmersive") {
+            ImmersiveView(rotateTrigger: $rotateTrigger, verticalSpinTrigger: $verticalSpin)
         }
-        .immersionStyle(selection: .constant(.full), in: .full)
     }
+    
 }
+
