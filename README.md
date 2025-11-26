@@ -10,7 +10,7 @@ Floating metallic cube with:
 Ready to run on Apple Vision Pro simulator  
 (Xcode 26.1.1 or newer)
 
-Live demo video → ![VisionOS - HenryB](https://github.com/user-attachments/assets/68bd682a-c671-4960-9a50-dbf9a2364ad9)
+Watch Live Demo → ![VisionOS - HenryB](https://github.com/user-attachments/assets/68bd682a-c671-4960-9a50-dbf9a2364ad9)
 
 **Henry Bautista**  
 Senior VisionOS / Spatial Computing Developer  
