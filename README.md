@@ -14,7 +14,7 @@ Live demo video → ![VisionOS - HenryB](https://github.com/user-attachments/ass
 
 **Henry Bautista**  
 Senior VisionOS / Spatial Computing Developer  
-Available for remote contracts · $60–80 USD/hour  
+Available for remote contracts · $80–100 USD/hour  
 Open to fintech, AR dashboards, 3D data visualization projects
 hentryx@gmail.com · LinkedIn · DM ready
 
