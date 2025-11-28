@@ -19,9 +19,13 @@
 
 Ready to run on Apple Vision Pro simulator  
 (Xcode 26.1.1 or newer)
+
 <div align="center">
-Watch Live Demo → ![VisionOS - HenryB](https://github.com/user-attachments/assets/68bd682a-c671-4960-9a50-dbf9a2364ad9)
+<b>Watch Live Demo</b><br/>
+↓<br/>
+<img src="https://github.com/user-attachments/assets/68bd682a-c671-4960-9a50-dbf9a2364ad9" alt="VisionOS Full Immersive Demo" />
 </div>
+<br/>
 
 ### Production-ready highlights
 - Zero third-party dependencies
