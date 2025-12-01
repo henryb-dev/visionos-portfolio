@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C232CCB2EDCFDB300143345 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3C232CCA2EDCFDB300143345 /* ComposableArchitecture */; };
+		3C3285A62EDD434F005DC7FF /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 3C3285A52EDD434F005DC7FF /* ViewInspector */; };
 		3C9002D62ED75904003A22BA /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3C9002D52ED75904003A22BA /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C232CCB2EDCFDB300143345 /* ComposableArchitecture in Frameworks */,
 				3C9002D62ED75904003A22BA /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,18 +68,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3285A62EDD434F005DC7FF /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C3285A42EDD434F005DC7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3C9002C72ED75904003A22BA = {
 			isa = PBXGroup;
 			children = (
 				3C9002D22ED75904003A22BA /* VisionHenry */,
 				3C9002D32ED75904003A22BA /* Packages */,
 				3C9002E72ED75905003A22BA /* VisionHenryTests */,
+				3C3285A42EDD434F005DC7FF /* Frameworks */,
 				3C9002D12ED75904003A22BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +131,7 @@
 			name = VisionHenry;
 			packageProductDependencies = (
 				3C9002D52ED75904003A22BA /* RealityKitContent */,
+				3C232CCA2EDCFDB300143345 /* ComposableArchitecture */,
 			);
 			productName = VisionHenry;
 			productReference = 3C9002D02ED75904003A22BA /* VisionHenry.app */;
@@ -142,6 +155,7 @@
 			);
 			name = VisionHenryTests;
 			packageProductDependencies = (
+				3C3285A52EDD434F005DC7FF /* ViewInspector */,
 			);
 			productName = VisionHenryTests;
 			productReference = 3C9002E42ED75905003A22BA /* VisionHenryTests.xctest */;
@@ -175,6 +189,10 @@
 			);
 			mainGroup = 3C9002C72ED75904003A22BA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3C232CC92EDCFDB300143345 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				3C3285A32EDD4307005DC7FF /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3C9002D12ED75904003A22BA /* Products */;
 			projectDirPath = "";
@@ -486,7 +504,36 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		3C232CC92EDCFDB300143345 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.23.1;
+			};
+		};
+		3C3285A32EDD4307005DC7FF /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		3C232CCA2EDCFDB300143345 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C232CC92EDCFDB300143345 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		3C3285A52EDD434F005DC7FF /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C3285A32EDD4307005DC7FF /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
 		3C9002D52ED75904003A22BA /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
