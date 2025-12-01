@@ -28,11 +28,14 @@ Ready to run on Apple Vision Pro simulator
 <br/>
 
 ### Production-ready highlights
-- Zero third-party dependencies
+- The Composable Architecture (TCA)
+- SwiftUI & RealityKit
 - Built with Xcode 26.1.1 + visionOS 2 SDK
-- Tested daily on Apple Vision Pro simulator
+- Tested on Apple Vision Pro simulator
 - Clean, commented, senior-level code
 - Ready for App Store (just change bundle ID)
+- Scalable
+- Unit Testing included
 
 ### Run it yourself
 ```bash
